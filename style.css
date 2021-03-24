@@ -1,0 +1,141 @@
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main
+{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+    list-style:none;
+    text-decoration:none;
+}
+
+.container{
+    width: 90%;
+    max-width: 1125px;
+    margin: auto;
+    padding: 30px;
+}
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.coluna{
+    flex-basis: 49%;
+}
+
+.hidden{
+    display:none;
+}
+/*body*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*header*/
+header{
+    background-color: red;
+    padding-top: 30px;
+}
+header .container{
+    background-color: white;
+ 
+}
+header .linha{
+    align-items: center;
+}
+header .coluna{}
+header .coluna-esquerda{
+    flex-basis: 30%;
+}
+header .coluna-direita{
+    flex-basis: 70%;
+}
+header .coluna figure{}
+header .coluna img{
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 100%;
+}
+header coluna h1{
+    font-size: 1.5rem;
+}
+header coluna p{
+    font-size: 1rem;
+    color:#636363
+}
+header coluna ul{
+    margin: 16px 0 0;
+}
+header coluna ul li{
+    margin: 0 0 12px;
+}
+header coluna ul li a{
+    font-size: 1rem;
+    color:black;
+}
+
+
+/*página inicial*/
+main{}
+main .container{}
+main .linha{}
+main .coluna{}
+main .coluna-esquerda{}
+main .coluna-direita{}
+main .coluna section{
+    border: 1px solid #d4e9ff;
+    margin: 0 0 20px;
+    padding: 20px;
+    min-height: 187px;
+}
+main .coluna section h2{
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+}
+main .coluna section p{
+    font-size: 0.9rem;
+    color:#636363;
+    line-height: 1.5;
+    
+}
+main .coluna ul{}
+main .coluna ul li{
+    margin: 0 0 12px;
+}
+main .coluna ul li h3{
+    font-size: 1.1rem;
+}
+main .coluna ul li strong{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 5px 0 10px;
+    display: inline-block;
+
+}
+main .coluna ul li p{}
+
+
+/*footer*/
+footer {}
+footer .container{}
+footer nav{}
+footer nav ul{}
+footer nav ul li{}
+footer nav ul li a{}
+footer nav .redes-sociais ul li{}
+footer nav .redes-sociais{
+    width: 75px;
+}
+footer nav .info-contato{}
+footer nav .info-contato li{}
+footer nav .info-contato li a{}
+footer nav .info-contato li a img{}
+footer nav .info-contato li a img p{}
+
+
+
+/*extras*/
+
+/*@medias*/
